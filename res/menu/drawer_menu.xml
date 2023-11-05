@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_beginning"
+            android:checked="true"
+            android:icon="@drawable/ic_filter_1_24dp"
+            android:title="@string/beginning" />
+
+        <item
+            android:id="@+id/nav_advices"
+            android:icon="@drawable/ic_filter_2_24dp"
+            android:title="@string/advices" />
+
+        <item
+            android:id="@+id/nav_equivalencies"
+            android:icon="@drawable/ic_filter_3_24dp"
+            android:title="@string/equivalencies" />
+
+        <item
+            android:id="@+id/nav_recipes"
+            android:icon="@drawable/ic_filter_4_24dp"
+            android:title="@string/recipes" />
+
+        <item
+            android:id="@+id/nav_places"
+            android:icon="@drawable/ic_filter_5_24dp"
+            android:title="@string/places" />
+
+        <item
+            android:id="@+id/nav_events"
+            android:icon="@drawable/ic_filter_6_24dp"
+            android:title="@string/events" />
+    </group>
+</menu>
